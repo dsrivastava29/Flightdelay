@@ -1,0 +1,38 @@
+{
+  "name": "flightapp",
+  "version": "0.0.0",
+  "description": "Big data project for flight delay prediction",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/dsrivastava29/Flightdelay.git"
+},
+"keywords": [
+  "bigdata",
+  "java",
+  "Pig",
+  "Hadoop",
+  "Flight",
+  "delay",
+  "analysis"
+],
+"author": "Divyansh Srivastava",
+"license": "ISC",
+"bugs": {
+  "url": "https://github.com/dsrivastava29/Flightdelay/issues"
+},
+"homepage": "https://github.com/dsrivastava29/Flightdelay#readme",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "mongoose": "^4.11.7",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
+}
